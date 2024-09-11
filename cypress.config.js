@@ -6,11 +6,12 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     // baseUrl: 'https://rasmijati.com.np',
-    baseUrl: 'https://www.w3schools.com/',
+    // baseUrl: 'https://www.w3schools.com/',
+    baseUrl: 'http://localhost:3000',
     viewportHeight: 550,
-    viewportWidth:660,
+    viewportWidth: 660,
     experimentalStudio: true,
-    defaultCommandTimeout: 6000   //wait for 6 second
+    // defaultCommandTimeout: 6000   //wait for 6 second
 
   },
 });
