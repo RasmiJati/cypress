@@ -31,3 +31,5 @@ it('submit form data', () => {
     // cy.get('.navbar-toggle').first().click({force: true})
     cy.get('.nav > :nth-child(2) > a')
   })
+
+  
