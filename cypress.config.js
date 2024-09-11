@@ -9,7 +9,8 @@ module.exports = defineConfig({
     baseUrl: 'https://www.w3schools.com/',
     viewportHeight: 550,
     viewportWidth:660,
-    experimentalStudio: true
+    experimentalStudio: true,
+    defaultCommandTimeout: 6000   //wait for 6 second
 
   },
 });
